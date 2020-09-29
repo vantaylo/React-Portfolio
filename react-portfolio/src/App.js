@@ -21,9 +21,9 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "Software Engineer",
+        title: "Let's Build Something",
         subTitle: "Operations guru turned Software Engineer",
-        text: "Checkout my projects below",
+        text: "",
       },
       about: {
         title: "About Me",
@@ -39,8 +39,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Vanessa Taylor</Navbar.Brand>
-
+            <Navbar.Brand>LOGO</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
