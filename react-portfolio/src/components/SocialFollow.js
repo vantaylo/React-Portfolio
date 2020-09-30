@@ -8,7 +8,7 @@ import {
 
 export default function SocialFollow() {
   return (
-    <div class="social-container">
+    <div className="social-container">
       <a href="https://github.com/vantaylo" className="github social">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>

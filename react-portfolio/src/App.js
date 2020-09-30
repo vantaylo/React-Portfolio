@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import "./App.css";
 
+import "./App.css";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -22,11 +22,14 @@ class App extends React.Component {
       ],
       home: {
         title: "Let's Build Something",
-        subTitle: "Operations guru turned Software Engineer",
+        subTitle:
+          "Develop experiences and tools that make people's lives simple.",
         text: "",
       },
       about: {
         title: "About Me",
+        subTitle: "Hi, I'm Vanessa Taylor",
+        text: "Operations guru turned Software Engineer",
       },
       contact: {
         title: "Let's Talk",
@@ -39,9 +42,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>
-              <img alt="" src="VanessaLogo.png"></img>
-            </Navbar.Brand>
+            <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
@@ -71,7 +72,13 @@ class App extends React.Component {
           />
           <Route
             path="/about"
-            render={() => <AboutPage title={this.state.about.title} />}
+            render={() => (
+              <AboutPage
+                title={this.state.about.title}
+                subTitle={this.state.about.subTitle}
+                text={this.state.about.text}
+              />
+            )}
           />
           <Route
             path="/contact"

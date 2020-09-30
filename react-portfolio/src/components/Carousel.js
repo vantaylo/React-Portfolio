@@ -18,7 +18,7 @@ class Carousel extends React.Component {
           title: "Employee Mgmt System",
           subTitle: "CLI for managing a company's employees.",
           imgSrc: project1,
-          link: "https://www.linkedin.com/in/vanessalyn-taylor/",
+          link: "https://github.com/vantaylo/Employee-Management-System-App",
           selected: false,
         },
         {
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
           title: "Wedding Planner",
           subTitle: "To help make wedding planning easier!",
           imgSrc: project2,
-          link: "https://www.linkedin.com/in/vanessalyn-taylor/",
+          link: "https://github.com/vantaylo/wedding-planner",
           selected: false,
         },
         {
@@ -34,7 +34,7 @@ class Carousel extends React.Component {
           title: "TRAILme",
           subTitle: "Helps hikers find hiking trails in their city!",
           imgSrc: project3,
-          link: "https://www.linkedin.com/in/vanessalyn-taylor/",
+          link: "https://github.com/TRAILme-APP/TRAILme",
           selected: false,
         },
       ],
@@ -74,6 +74,37 @@ class Carousel extends React.Component {
       <Container fluid={true}>
         <Row className="justify-content-around">
           {this.makeItems(this.state.items)}
+        </Row>
+        <Row>
+          <div>
+            <header>Homeworks and Other Work</header>
+            <ul className="hw__list">
+              <li className="hw__item">
+                <a
+                  href="https://github.com/vantaylo/Employee-Directory-App"
+                  className="hw__link"
+                >
+                  Employee Directory App
+                </a>
+              </li>
+              <li className="hw__item">
+                <a
+                  href="https://github.com/vantaylo/Workout-Tracker-App"
+                  className="hw__link"
+                >
+                  Workout Tracker App
+                </a>
+              </li>
+              <li className="hw__item">
+                <a
+                  href="https://github.com/vantaylo/TRAILme-App"
+                  className="hw__link"
+                >
+                  TRAILme V.1
+                </a>
+              </li>
+            </ul>
+          </div>
         </Row>
       </Container>
     );

@@ -5,8 +5,7 @@ import Content from "../components/Content";
 function AboutPage(props) {
   return (
     <div>
-      <Hero title={props.title} />
-
+      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       <Content>
         <p>
           I am a talented and proactive operations and facilities management
@@ -31,6 +30,16 @@ function AboutPage(props) {
           While offering a high degree of efficiency and a roll up your sleeves
           attitude to thrive in a fast paced environment.
         </p>
+        <br></br>
+        <br></br>
+
+        <div className="quote">
+          <h3>
+            "When I’m working on a problem, I never think about beauty. I think
+            only how to solve the problem. But when I have finished, if the
+            solution is not beautiful, I know it is wrong." - Freeman Dyson
+          </h3>
+        </div>
       </Content>
     </div>
   );

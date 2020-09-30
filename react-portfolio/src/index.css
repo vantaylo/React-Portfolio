@@ -69,3 +69,12 @@ a.github {
 a.twitter {
   color: #49a1eb;
 }
+
+header {
+  margin: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: black;
+}
