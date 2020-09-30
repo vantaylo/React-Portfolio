@@ -18,11 +18,11 @@ Now that I have worked with React and have multiple projects to share, I'm updat
 
 ## Technology
 
-React
-React Router
-React Spring
-SendGrid
+- React
+- React Router
+- React Spring
+- SendGrid
 
 ## Preview
 
-![demo](ReactPortfolio.gif)
+![demo](ReactPortfolioDemo.gif)
