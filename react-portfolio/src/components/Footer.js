@@ -9,7 +9,10 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
           <Col className="p-0" md={4} sm={12}>
-            <a href="mailto:vanessalyn.taylor@gmail.com" class="footer__link">
+            <a
+              href="mailto:vanessalyn.taylor@gmail.com"
+              className="footer__link"
+            >
               vanessalyn.taylor@gmail.com
             </a>
           </Col>

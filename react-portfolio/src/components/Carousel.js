@@ -2,9 +2,9 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import project1 from "../assets/images/project1.png";
-import project2 from "../assets/images/project2.png";
-import project3 from "../assets/images/project3.png";
+import project1 from "../assets/images/project1.jpg";
+import project2 from "../assets/images/project2.jpg";
+import project3 from "../assets/images/project3.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
@@ -15,24 +15,24 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Project 1",
-          subTitle: "description",
+          title: "Employee Mgmt System",
+          subTitle: "CLI for managing a company's employees.",
           imgSrc: project1,
           link: "https://www.linkedin.com/in/vanessalyn-taylor/",
           selected: false,
         },
         {
           id: 1,
-          title: "Project 2",
-          subTitle: "description",
+          title: "Wedding Planner",
+          subTitle: "To help make wedding planning easier!",
           imgSrc: project2,
           link: "https://www.linkedin.com/in/vanessalyn-taylor/",
           selected: false,
         },
         {
           id: 2,
-          title: "Project 3",
-          subTitle: "description",
+          title: "TRAILme",
+          subTitle: "Helps hikers find hiking trails in their city!",
           imgSrc: project3,
           link: "https://www.linkedin.com/in/vanessalyn-taylor/",
           selected: false,
