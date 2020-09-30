@@ -28,7 +28,7 @@ app.post("/api/email", (req, res, next) => {
   console.log(req.body);
 
   sendGrid.setApiKey(
-    "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"
+    "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"
   );
   const msg = {
     to: "vanessalyn.taylor@gmail.com",
@@ -52,4 +52,4 @@ app.post("/api/email", (req, res, next) => {
     });
 });
 
-app.listen(5000, "0.0.0.0");
+app.listen(3030, "0.0.0.0");
