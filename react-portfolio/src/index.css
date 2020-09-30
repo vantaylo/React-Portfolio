@@ -47,3 +47,25 @@ code {
   color: #ee6352;
   padding: 10px 15px;
 }
+
+a.social {
+  margin: 0 0.5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  color: #2867b2;
+}
+
+a.github {
+  color: black;
+}
+
+a.twitter {
+  color: #49a1eb;
+}

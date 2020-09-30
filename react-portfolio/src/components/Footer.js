@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import SocialFollow from "./SocialFollow";
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
             </a>
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={3}>
-            SOCIAL ICONS
+            <SocialFollow />
           </Col>
         </Row>
       </Container>
