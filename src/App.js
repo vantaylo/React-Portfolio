@@ -40,12 +40,12 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+        <Container class="container-fluid" fluid={true}>
+          <Navbar className="navbar" expand="lg" >
             <Navbar.Brand></Navbar.Brand>
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
+            <Navbar.Toggle className="navbar-toggle" aria-controls="navbar-toggle" />
+            <Navbar.Collapse>
+              <Nav className="navigation">
                 <Link className="nav-link" to="/React-Portfolio">
                   Home
                 </Link>

@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
 }
 
 .App-link {
@@ -29,4 +29,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.navigation {
+  margin-left: auto !important;
+}
+
+.nav-link {
+  background-color: #ebe85d;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #ffffff !important;
+}
+
+h1 {
+  color: #6cafcc;
+}
+
+h3 {
+  color: #9dadc4;
+}
+
+.navbar-toggle {
+  border: transparent !important;
 }
