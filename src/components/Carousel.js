@@ -5,6 +5,7 @@ import Card from "../components/Card";
 import project1 from "../assets/images/project1.jpg";
 import project2 from "../assets/images/project2.jpg";
 import project3 from "../assets/images/project3.jpg";
+import comingSoon from "../assets/images/ComingSoon.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
@@ -15,14 +16,22 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Employee Mgmt System",
-          subTitle: "CLI for managing a company's employees.",
-          imgSrc: project1,
+          title: "Trailme V2.0",
+          subTitle: "Helps hikers find hiking trails anywhere!",
+          imgSrc: project3,
           link: "https://github.com/vantaylo/Employee-Management-System-App",
           selected: false,
         },
         {
           id: 1,
+          title: "TRAILme V1.0",
+          subTitle: "Helps hikers find hiking trails anywhere!",
+          imgSrc: project3,
+          link: "https://github.com/TRAILme-APP/TRAILme",
+          selected: false,
+        },
+        {
+          id: 2,
           title: "Wedding Planner",
           subTitle: "To help make wedding planning easier!",
           imgSrc: project2,
@@ -30,11 +39,27 @@ class Carousel extends React.Component {
           selected: false,
         },
         {
-          id: 2,
-          title: "TRAILme",
-          subTitle: "Helps hikers find hiking trails in their city!",
-          imgSrc: project3,
-          link: "https://github.com/TRAILme-APP/TRAILme",
+          id: 3,
+          title: "Weather Dashboard",
+          subTitle: "A weather dashboard using the OpenWeather API.",
+          imgSrc: comingSoon,
+          link: "https://github.com/vantaylo/Weather-Dashboard",
+          selected: false,
+        },
+        {
+          id: 4,
+          title: "Workout Tracker",
+          subTitle: "A workout tracker using React and Mongo database with a Mongoose schema.",
+          imgSrc: comingSoon,
+          link: "https://github.com/vantaylo/Workout-Tracker-App",
+          selected: false,
+        },
+        {
+          id: 5,
+          title: "Employee Mgmt System",
+          subTitle: "CLI for managing a company's employees.",
+          imgSrc: comingSoon,
+          link: "https://github.com/vantaylo/Employee-Management-System-App",
           selected: false,
         },
       ],
@@ -74,37 +99,6 @@ class Carousel extends React.Component {
       <Container fluid={true}>
         <Row className="justify-content-around">
           {this.makeItems(this.state.items)}
-        </Row>
-        <Row>
-          <div>
-            <header>Homeworks and Other Work</header>
-            <ul className="hw__list">
-              <li className="hw__item">
-                <a
-                  href="https://github.com/vantaylo/Employee-Directory-App"
-                  className="hw__link"
-                >
-                  Employee Directory App
-                </a>
-              </li>
-              <li className="hw__item">
-                <a
-                  href="https://github.com/vantaylo/Workout-Tracker-App"
-                  className="hw__link"
-                >
-                  Workout Tracker App
-                </a>
-              </li>
-              <li className="hw__item">
-                <a
-                  href="https://github.com/vantaylo/TRAILme-App"
-                  className="hw__link"
-                >
-                  TRAILme V.1
-                </a>
-              </li>
-            </ul>
-          </div>
         </Row>
       </Container>
     );
