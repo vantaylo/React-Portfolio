@@ -1,8 +1,13 @@
 import React from "react";
 
 import Card from "../components/Card";
-import project3 from "../assets/images/project3.jpg";
-import comingSoon from "../assets/images/ComingSoon.jpg";
+import project0 from "../assets/images/WeddingPlanner.jpg";
+import project1 from "../assets/images/Trailme.jpg";
+import project2 from "../assets/images/EmployeeMgmt.jpg";
+import project3 from "../assets/images/EmployeeDirectory.jpg";
+import project4 from "../assets/images/WebCrawler.jpg";
+import project5 from "../assets/images/WorkoutTracker.jpeg";
+// import comingSoon from "../assets/images/ComingSoon.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
@@ -13,52 +18,52 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Trailme V2.0",
-          subTitle: "Helps hikers find hiking trails anywhere!",
-          imgSrc: project3,
-          link: "https://github.com/vantaylo/Employee-Management-System-App",
+          title: "Wedding Planner App",
+          subTitle: "Full stack web application helping plan and organize all the details surrounding the big day!",
+          imgSrc: project0,
+          link: "https://github.com/vantaylo/wedding-planner",
           selected: false,
         },
         {
           id: 1,
-          title: "TRAILme V1.0",
-          subTitle: "Helps hikers find hiking trails anywhere!",
-          imgSrc: project3,
+          title: "TRAILme App",
+          subTitle: "MERN stack application helping find hiking trails anywhere!",
+          imgSrc: project1,
           link: "https://github.com/TRAILme-APP/TRAILme",
           selected: false,
         },
         {
           id: 2,
-          title: "Wedding Planner",
-          subTitle: "To help make wedding planning easier!",
-          imgSrc: project3,
-          link: "https://github.com/vantaylo/wedding-planner",
+          title: "Employee Mgmt System",
+          subTitle: "CLI for managing a company's employees using using Node.js and MySQL.",
+          imgSrc: project2,
+          link: "https://github.com/vantaylo/Employee-Management-System-App",
           selected: false,
         },
         {
           id: 3,
-          title: "Weather Dashboard",
-          subTitle: "A weather dashboard using the OpenWeather API.",
-          imgSrc: comingSoon,
-          link: "https://github.com/vantaylo/Weather-Dashboard",
+          title: "Employee Directory",
+          subTitle: "A employee directory web application with React.",
+          imgSrc: project3,
+          link: "https://github.com/vantaylo/Employee-Directory-App",
           selected: false,
         },
         {
           id: 4,
-          title: "Workout Tracker",
-          subTitle: "A workout tracker using React and Mongo database with a Mongoose schema.",
-          imgSrc: comingSoon,
-          link: "https://github.com/vantaylo/Workout-Tracker-App",
+          title: "Web Crawler",
+          subTitle: "Web scraping program using Python and data storing with MongoDB.",
+          imgSrc: project4,
+          link: "https://github.com/vantaylo/Web-Crawler",
           selected: false,
         },
         {
           id: 5,
-          title: "Employee Mgmt System",
-          subTitle: "CLI for managing a company's employees.",
-          imgSrc: comingSoon,
-          link: "https://github.com/vantaylo/Employee-Management-System-App",
+          title: "Workout Tracker",
+          subTitle: "A workout tracker web application with React and MongoDB with a Mongoose schema.",
+          imgSrc: project5,
+          link: "https://github.com/vantaylo/Workout-Tracker-App",
           selected: false,
-        },
+        }
       ],
     };
   }
