@@ -29,7 +29,7 @@ class App extends React.Component {
       about: {
         title: "About Me",
         subTitle: "Hi, I'm Vanessa Taylor",
-        text: "Operations guru turned Software Engineer",
+        text: "Software Engineer",
       },
       contact: {
         title: "Let's Talk",

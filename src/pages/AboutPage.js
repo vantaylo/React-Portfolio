@@ -8,38 +8,42 @@ function AboutPage(props) {
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       <Content>
         <p>
-          I am a talented and proactive operations and facilities management
-          professional turned Full Stack Software Engineer. With extensive
-          experience within the technology industry managing operations,
-          building facilities, supply chain management and workplace services.
+        I am a talented and proactive business professional turned Software Engineer. 
+        With extensive experience within the technology industry managing operations, supply chain management, facilities, and workplace services.
         </p>
         <p>
-          My experience has provided me with exceptional analytical and
-          problem-solving skills necessary to prioritize work and resources to
-          plan and execute projects, drive initiatives and implement strategy.
+        I'm skilled in multiple languages including Javascript and Python.
+        As a full-stack engineer, I especially enjoy creating well-designed,
+        intuitive interfaces with React and have worked at mastering other UI technologies including,
+        jQuery, CSS3, HTML5 and other front-end frameworks. As a back-end engineer,
+        I have focused on building clean, structured, scalable back-ends and have experience setting up servers, 
+        databases, and the overall infrastructure of an application from the ground up.
         </p>
 
         <p>
-          As a soon to-be graduate of the University of Texas at Austin,
-          Professional Education in Full Stack Web Development. I'm looking to
-          leverage my skills, including Python, JavaScript, HTML, and CSS to
-          design and develop experiences and tools that make people's lives
-          simple.
+        CliftonStrengths:
+        1. Relator
+        2. Individualization
+        3. Competition
+        4. Focus
+        5. Achiever
+        6. Analytical
+        7. Significance
+        8. Responsibility
+        9. Discipline
+        10. Activator 
         </p>
-        <p>
-          While offering a high degree of efficiency and a roll up your sleeves
-          attitude to thrive in a fast paced environment.
-        </p>
+        
         <br></br>
         <br></br>
 
-        <div className="quote">
+        {/* <div className="quote">
           <h3>
             "When I’m working on a problem, I never think about beauty. I think
             only how to solve the problem. But when I have finished, if the
             solution is not beautiful, I know it is wrong." - Freeman Dyson
           </h3>
-        </div>
+        </div> */}
       </Content>
     </div>
   );
