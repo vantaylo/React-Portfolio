@@ -21,14 +21,14 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "Let's Build Something",
+        title: "Classic Values. Innovative Solutions.",
         subTitle:
-          "Develop experiences and tools that make people's lives simple.",
+          "Engineered for Life.",
         text: "",
       },
       about: {
         title: "About Me",
-        subTitle: "Hi, I'm Vanessa Taylor",
+        subTitle: "Hi, I'm Vanessa",
         text: "Software Engineer",
       },
       contact: {
@@ -40,7 +40,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container class="container-fluid" fluid={true}>
+        <Container className="container-fluid" fluid={true}>
           <Navbar className="navbar" expand="lg" >
             <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle className="navbar-toggle" aria-controls="navbar-toggle" />
