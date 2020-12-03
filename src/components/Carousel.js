@@ -31,7 +31,7 @@ class Carousel extends React.Component {
           id: 2,
           title: "Wedding Planner",
           subTitle: "To help make wedding planning easier!",
-          imgSrc: project2,
+          imgSrc: project3,
           link: "https://github.com/vantaylo/wedding-planner",
           selected: false,
         },
