@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vt-react-portfolio.herokuapp.com/React-Portfolio",
+  "homepage": "https://vt-react-portfolio.herokuapp.com/",
   "engines": {
     "node": "12.16.1",
     "npm": "6.13.4"
