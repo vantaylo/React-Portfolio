@@ -103,7 +103,7 @@ class ContactPage extends React.Component {
 
             <Button
               className="d-inline-block"
-              variant="primary"
+              variant="light"
               type="submit"
               disabled={this.state.disabled}
             >
