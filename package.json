@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "https://vt-react-portfolio.herokuapp.com/React-Portfolio",
   "engines": {
-    "node": "12.16.1"
+    "node": "12.16.1",
+    "npm": "6.13.4",
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
