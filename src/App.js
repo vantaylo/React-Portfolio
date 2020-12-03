@@ -16,7 +16,7 @@ class App extends React.Component {
     this.state = {
       title: "Vanessa Taylor",
       headerLinks: [
-        { title: "Home", path: "/React-Portfolio" },
+        { title: "Home", path: "/" },
         { title: "About", path: "/about" },
         { title: "Contact", path: "/contact" },
       ],
@@ -46,7 +46,7 @@ class App extends React.Component {
             <Navbar.Toggle className="navbar-toggle" aria-controls="navbar-toggle" />
             <Navbar.Collapse>
               <Nav className="navigation">
-                <Link className="nav-link" to="/React-Portfolio">
+                <Link className="nav-link" to="/">
                   Home
                 </Link>
                 <Link className="nav-link" to="/about">
@@ -60,7 +60,7 @@ class App extends React.Component {
           </Navbar>
 
           <Route
-            path="/React-Portfolio"
+            path="/"
             exact
             render={() => (
               <HomePage
