@@ -26,6 +26,9 @@
     "react-spring": "^8.0.27",
     "reactstrap": "^8.6.0"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "start": "react-scripts start && cd portfolio-api/ && node index.js",
     "predeploy": "npm run build",
