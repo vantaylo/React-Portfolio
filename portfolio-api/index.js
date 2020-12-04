@@ -8,7 +8,6 @@ const app = express();
 require('dotenv').config();
 
 const apiKey = process.env.SENDGRID_API_KEY
-console.log("API KEY", apiKey)
 
 app.use(bodyParser.json());
 
