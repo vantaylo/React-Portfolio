@@ -13,7 +13,7 @@ code {
 }
 
 .g-card {
-  margin: 20px;
+  margin: 5px;
 }
 
 .g-card-image {
@@ -77,4 +77,18 @@ header {
 .quote {
   font-style: italic;
   color: black;
+}
+
+footer {
+  justify-content: center !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-top: 75px !important;
+  margin-bottom: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.row {
+  justify-content: center !important;
 }
