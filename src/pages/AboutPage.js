@@ -39,7 +39,7 @@ function AboutPage(props) {
 
         <div  className="quote">
           <h3>
-          <img className="pic"  src="https://avatars3.githubusercontent.com/u/57538298?s=400&u=74ea5e9588260d301cf67e74e1eb2f18e2d70dcc&v=4" alt="picture" />"Programming is an opportunity to create something" 
+          <img className="profilepic" src="https://avatars3.githubusercontent.com/u/57538298?s=400&u=74ea5e9588260d301cf67e74e1eb2f18e2d70dcc&v=4" alt="Vanessa" />"Programming is an opportunity to create something" 
           </h3>
         </div>
       </Content>
