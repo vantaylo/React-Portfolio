@@ -4,7 +4,7 @@ import Content from "../components/Content";
 
 function AboutPage(props) {
   return (
-    <div>
+    <div>  
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       <Content>
         <p>
@@ -35,15 +35,13 @@ function AboutPage(props) {
         </p>
         
         <br></br>
-        <br></br>
+       
 
-        {/* <div className="quote">
+        <div  className="quote">
           <h3>
-            "When I’m working on a problem, I never think about beauty. I think
-            only how to solve the problem. But when I have finished, if the
-            solution is not beautiful, I know it is wrong." - Freeman Dyson
+          <img className="pic"  src="https://avatars3.githubusercontent.com/u/57538298?s=400&u=74ea5e9588260d301cf67e74e1eb2f18e2d70dcc&v=4" alt="picture" />"Programming is an opportunity to create something" 
           </h3>
-        </div> */}
+        </div>
       </Content>
     </div>
   );

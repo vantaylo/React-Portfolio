@@ -58,3 +58,16 @@ h3 {
 .navbar-toggle {
   border: transparent !important;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.pic {
+  margin-right: 5px;
+}
