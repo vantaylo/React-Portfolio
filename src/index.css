@@ -92,3 +92,10 @@ footer {
 .row {
   justify-content: center !important;
 }
+
+.clickTag {
+  text-align: center;
+  font-size: large;
+  font-family: Helvetica;
+  color: lightgray;
+}
