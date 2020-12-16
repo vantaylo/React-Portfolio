@@ -71,3 +71,8 @@ img {
 .profilepic {
   margin-right: 5px;
 }
+
+.g-card-info {
+  width: 300px !important;
+  text-align: center;
+}

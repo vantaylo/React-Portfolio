@@ -19,7 +19,7 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: "Wedding Planner App",
-          subTitle: "Full stack web application helping plan and organize all the details surrounding the big day!",
+          subTitle: "Full-Stack application using Node, Express, React & MySQL to help plan and organize all the details surrounding the big day!",
           imgSrc: project0,
           link: "https://github.com/vantaylo/wedding-planner",
           selected: false,
@@ -27,7 +27,7 @@ class Carousel extends React.Component {
         {
           id: 1,
           title: "TRAILme App",
-          subTitle: "MERN stack application helping find hiking trails anywhere!",
+          subTitle: "A Full-Stack application using Node, Express, React & MongoDB to help find hiking trails anywhere!",
           imgSrc: project1,
           link: "https://github.com/TRAILme-APP/TRAILme",
           selected: false,
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
         {
           id: 2,
           title: "Employee Mgmt System",
-          subTitle: "CLI for managing a company's employees using using Node.js and MySQL.",
+          subTitle: "Command-Line-Interface for managing a company's employees using Node.js, Inquirer and MySQL.",
           imgSrc: project2,
           link: "https://github.com/vantaylo/Employee-Management-System-App",
           selected: false,
@@ -51,7 +51,7 @@ class Carousel extends React.Component {
         {
           id: 4,
           title: "Web Crawler",
-          subTitle: "Web scraping program using Python and data storing with MongoDB.",
+          subTitle: "A web scraping program for staying up to date with your favorite show using Python and MongoDB.",
           imgSrc: project4,
           link: "https://github.com/vantaylo/Web-Crawler",
           selected: false,
