@@ -23,11 +23,11 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/api", (req, res, next) => {
+app.get("/contact", (req, res, next) => {
   res.send("API Status: I'm awesome");
 });
 
-app.post("/api/email", (req, res, next) => {
+app.post("/contact", (req, res, next) => {
   console.log(req.body);
 
   sendGrid.setApiKey(apiKey);
