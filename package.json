@@ -29,10 +29,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27",
-    "reactstrap": "^8.6.0"
+    "reactstrap": "^8.6.0",
+    "sendgrid": "^5.2.3"
   },
   "scripts": {
-    "start": "react-scripts start && cd portfolio-api/ && node index.js",
+    "start": "react-scripts start && node sendgrid.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
