@@ -34,7 +34,7 @@ function AboutPage(props) {
           </Col>
           
           <Col>
-            <h2>VIA Survey Strengths</h2>
+            <h2>VIA Strengths</h2>
             <p>1. Honesty | Courage </p>
             <p>2. Fairness | Justice </p>
             <p>3. Judgement | Wisdom </p>
