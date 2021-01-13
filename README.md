@@ -2,10 +2,6 @@
 
 Now that I have worked with React and have multiple projects to share, I'm updating my portfolio and other materials using React.
 
-## Wireframe
-
-![wireframe](Wireframe.png)
-
 ## Updates Made
 
 - Updated portfolio featuring 6 total projects
@@ -14,7 +10,6 @@ Now that I have worked with React and have multiple projects to share, I'm updat
 - A single Project component that will be used multiple times on a single page
 - Navigation with React Router, dynamic rendering, or another third part router
 - A Footer component that appears on multiple pages
-- Update GitHub profile with pinned repositories featuring those same projects
 
 ## Technology
 
@@ -26,4 +21,3 @@ Now that I have worked with React and have multiple projects to share, I'm updat
 ## Preview
 [Deployed Link!](https://vt-react-portfolio.herokuapp.com/)
 
-![demo](ReactPortfolioDemo.gif)
