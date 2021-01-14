@@ -12,30 +12,17 @@ code {
     monospace;
 }
 
-.g-card {
-  margin: 5px;
-}
-
-.g-card-image {
-  border-radius: 10px;
-  width: 300px;
-  height: 480px;
-  box-shadow: 0px 0px 3px 1px #ccc;
-}
-
-.g-card-info {
-  margin-top: 10px;
-  min-height: 100px;
-}
-
 .g-card-title {
   font-size: 24px;
   margin: 0px;
+  margin-top: 100px !important;
 }
 
 .g-card-sub-title {
+  display: block !important;
   font-size: 16px;
   margin: 0px;
+  margin-top: 25px;
 }
 
 .success-msg {
@@ -91,11 +78,4 @@ footer {
 
 .row {
   justify-content: center !important;
-}
-
-.clickTag {
-  text-align: center;
-  font-size: large;
-  font-family: Helvetica;
-  color: lightgray;
 }

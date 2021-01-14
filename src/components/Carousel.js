@@ -21,7 +21,7 @@ class Carousel extends React.Component {
           title: "Wedding Planner App",
           subTitle: "Full-Stack application using Node, Express, React & MySQL to help plan and organize all the details surrounding the big day!",
           imgSrc: project0,
-          link: "https://github.com/vantaylo/wedding-planner",
+          link: "https://wedding-planner-platform.herokuapp.com/",
           selected: false,
         },
         {
@@ -29,7 +29,7 @@ class Carousel extends React.Component {
           title: "TRAILme App",
           subTitle: "A Full-Stack application using Node, Express, React & MongoDB to help find hiking trails anywhere!",
           imgSrc: project1,
-          link: "https://github.com/TRAILme-APP/TRAILme",
+          link: "https://trailme.herokuapp.com/",
           selected: false,
         },
         {
@@ -45,7 +45,7 @@ class Carousel extends React.Component {
           title: "Employee Directory",
           subTitle: "A employee directory web application with React.",
           imgSrc: project3,
-          link: "https://github.com/vantaylo/Employee-Directory-App",
+          link: "https://employee-directory-app1.herokuapp.com/",
           selected: false,
         },
         {
@@ -61,7 +61,7 @@ class Carousel extends React.Component {
           title: "Workout Tracker",
           subTitle: "A workout tracker web application with React and MongoDB with a Mongoose schema.",
           imgSrc: project5,
-          link: "https://github.com/vantaylo/Workout-Tracker-App",
+          link: "https://workout-tracker-app1.herokuapp.com/",
           selected: false,
         }
       ],
