@@ -42,7 +42,7 @@ a.social {
 }
 
 a.social:hover {
-  color: inherit;
+  color: #2867b2;
   transform: translateY(-2px);
 }
 
@@ -50,7 +50,15 @@ a.linkedin {
   color: #2867b2;
 }
 
+a.linkedin:hover {
+  color: #2867b2;
+}
+
 a.github {
+  color: black;
+}
+
+a.github:hover {
   color: black;
 }
 
