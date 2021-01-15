@@ -10,6 +10,7 @@ import {
 export default function SocialFollow() {
   return (
     <div className="row">
+
       <a href="https://github.com/vantaylo" className="github social">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
@@ -19,7 +20,7 @@ export default function SocialFollow() {
       </a>
 
       <a href="https://www.linkedin.com/in/vanessalyn-taylor/"className="linkedin social">
-      <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
 
       {/* <a href="https://twitter.com/VanessaL_Taylor" className="twitter social">

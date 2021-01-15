@@ -36,9 +36,11 @@ code {
 }
 
 a.social {
-  margin: 0 0.5rem;
   transition: transform 250ms;
   display: inline-block;
+  margin: 3px;
+  width: 32px;
+  height: 32px;
 }
 
 a.social:hover {
@@ -48,6 +50,7 @@ a.social:hover {
 
 a.linkedin {
   color: #2867b2;
+  text-align: center;
 }
 
 a.linkedin:hover {
@@ -69,6 +72,7 @@ a.twitter {
 .resume-icon {
   width: 35px;
   height: 35px;
+  margin: 3px;
 }
 
 .resume-icon:hover {
