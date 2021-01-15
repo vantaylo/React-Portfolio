@@ -57,6 +57,15 @@ a.twitter {
   color: #49a1eb;
 }
 
+.resume-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.resume-icon:hover {
+  transform: translateY(-2px);
+}
+
 header {
   margin: 10px;
 }
