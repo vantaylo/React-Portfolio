@@ -42,6 +42,7 @@ a.social {
 }
 
 a.social:hover {
+  color: inherit;
   transform: translateY(-2px);
 }
 
