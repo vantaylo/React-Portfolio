@@ -29,7 +29,7 @@ class Carousel extends React.Component {
           title: "TRAILme App",
           subTitle: "A Full-Stack application using Node, Express, React & MongoDB to help find hiking trails anywhere!",
           imgSrc: project1,
-          link: "https://vt-react-portfolio.herokuapp.com/",
+          link: "https://vt-trailme.herokuapp.com/",
           selected: false,
         },
         {
