@@ -1,13 +1,11 @@
 import React from "react";
-
 import Card from "../components/Card";
 import project0 from "../assets/images/WeddingPlanner.jpg";
 import project1 from "../assets/images/Trailme.jpg";
-import project2 from "../assets/images/EmployeeMgmt.jpg";
+import comingSoon from "../assets/images/ComingSoon.jpg";
 import project3 from "../assets/images/EmployeeDirectory.jpg";
-import project4 from "../assets/images/WebCrawler.jpg";
-import project5 from "../assets/images/WorkoutTracker.jpeg";
-// import comingSoon from "../assets/images/ComingSoon.jpg";
+import project4 from "../assets/images/EmployeeMgmt.jpg";
+import project5 from "../assets/images/Portfolio.jpg"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
@@ -18,8 +16,8 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Wedding Planner App",
-          subTitle: "Full-Stack application using Node, Express, React & MySQL to help plan and organize all the details surrounding the big day!",
+          title: "Wedding Planner",
+          subTitle: "A full stack application using Node, Express, React & MySQL to help plan and organize all the details surrounding the big day.",
           imgSrc: project0,
           link: "https://wedding-planner-platform.herokuapp.com/",
           selected: false,
@@ -27,43 +25,43 @@ class Carousel extends React.Component {
         {
           id: 1,
           title: "TRAILme App",
-          subTitle: "A Full-Stack application using Node, Express, React & MongoDB to help find hiking trails anywhere!",
+          subTitle: "A full stack application using Node, Express, React & MongoDB to help find hiking trails anywhere.",
           imgSrc: project1,
           link: "https://vt-trailme.herokuapp.com/",
           selected: false,
         },
         {
           id: 2,
-          title: "Employee Mgmt System",
-          subTitle: "Command-Line-Interface for managing a company's employees using Node.js, Inquirer and MySQL.",
-          imgSrc: project2,
-          link: "https://github.com/vantaylo/Employee-Management-System-App",
+          title: "In Progress",
+          subTitle: "A full stack application that brings all your news together.",
+          imgSrc: comingSoon,
+          link: "https://github.com/vantaylo/News-App",
           selected: false,
         },
         {
           id: 3,
           title: "Employee Directory",
-          subTitle: "A employee directory web application with React.",
+          subTitle: "An employee directory web application with React.",
           imgSrc: project3,
           link: "https://employee-directory-app1.herokuapp.com/",
           selected: false,
         },
         {
           id: 4,
-          title: "Web Crawler",
-          subTitle: "A web scraping program for staying up to date with your favorite show using Python and MongoDB.",
+          title: "Employee Mgmt System",
+          subTitle: "Command-Line-Interface for managing a company's employees using Node, Inquirer & MySQL.",
           imgSrc: project4,
-          link: "https://github.com/vantaylo/Web-Crawler",
+          link: "https://github.com/vantaylo/Employee-Management-System-App",
           selected: false,
         },
         {
           id: 5,
-          title: "Workout Tracker",
-          subTitle: "A workout tracker web application with React and MongoDB with a Mongoose schema.",
+          title: "Portfolio",
+          subTitle: "How I created my portfolio using Node & React",
           imgSrc: project5,
-          link: "https://workout-tracker-app1.herokuapp.com/",
+          link: "https://github.com/vantaylo/React-Portfolio",
           selected: false,
-        }
+        },
       ],
     };
   }
