@@ -18,5 +18,7 @@ Now that I have worked with React and have multiple projects to share, I'm updat
 - SendGrid
 
 ## Preview
-[Deployed Link!](https://vt-react-portfolio.herokuapp.com/)
 
+![Portfolio Preview](ReactPortfolioPreview.gif)
+
+[Deployed Link!](https://vt-react-portfolio.herokuapp.com/)
