@@ -2,6 +2,8 @@
 
 Now that I have worked with React and have multiple projects to share, I'm updating my portfolio and other materials using React.
 
+[Deployed Link!](https://vt-react-portfolio.herokuapp.com/)
+
 ## Updates Made
 
 - Updated portfolio featuring 6 total projects
@@ -20,5 +22,3 @@ Now that I have worked with React and have multiple projects to share, I'm updat
 ## Preview
 
 ![Portfolio Preview](ReactPortfolioPreview.gif)
-
-[Deployed Link!](https://vt-react-portfolio.herokuapp.com/)
