@@ -43,7 +43,7 @@ class Carousel extends React.Component {
           title: "Employee Directory",
           subTitle: "An employee directory web application with React.",
           imgSrc: project3,
-          link: "https://employee-directory-app1.herokuapp.com/",
+          link: "https://github.com/vantaylo/Employee-Directory-App",
           selected: false,
         },
         {
