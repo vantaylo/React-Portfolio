@@ -11,10 +11,10 @@ function AboutPage(props) {
 
       <Content>
         <p>
-        I'm a proactive business professional turned Software Engineer. With extensive experience within the technology industry managing operations, supply chain management, facilities, and workplace services. I have a passion and proven history for problem solving with strong analytical capabilities.
+        Operations professionals turned Full-Stack Software Engineer, with vast experience in supply chain management, finance, facilities, and workplace services and culture.
         </p>
         <p>
-        I'm skilled in multiple languages including Javascript, Python and C++. As a full-stack engineer, I especially enjoy creating well-designed, intuitive interfaces with React and Redux and have worked at mastering other UI technologies including, jQuery, CSS3, HTML5 and other front-end frameworks. As a back-end engineer, I have focused on building clean, structured, scalable back-ends and have experience setting up servers, databases, and the overall infrastructure of an application from the ground up.
+        I'm skilled in multiple languages including Javascript, Python and C++. As a front-end engineer, I enjoy creating well-designed, intuitive interfaces with React and Redux and have worked at mastering other UI technologies including, jQuery, CSS3, HTML5 and other front-end frameworks. As a back-end engineer, I have focused on building clean, structured, scalable back-ends and have experience setting up servers, databases, and the overall infrastructure of an application from the ground up.
         </p>
          
         <div  className="strengths">
