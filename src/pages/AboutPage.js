@@ -11,11 +11,9 @@ function AboutPage(props) {
 
       <Content>
         <p>
-        Operations professionals turned Full-Stack Software Engineer. I'm a product-minded, customer-focused, full-stack engineer with a passion for helping take world-changing ideas from prototype to launch. I love focusing on improving and experimenting beyond traditional products. With vast experience in supply chain management, finance, facilities, and workplace services across many industries, including small business, government, tech, and non-profit. I understand the importance of revolutionizing the tools we use and have a passion and proven history for problem solving with strong analytical capabilities.
-        </p>
+        I'm a product-minded, customer-focused, Full-Stack Software Engineer with a passion for helping take world-changing ideas from prototype to launch. I love focusing on improving and experimenting beyond traditional products. With vast experience in operations, supply chain management, finance, facilities, and workplace services across many industries, including small business, government, tech, and non-profit. I understand the importance of revolutionizing the tools we use and have a passion and proven history for problem solving with strong analytical capabilities.        </p>
         <p>
-        I'm skilled in multiple languages including Javascript, Python and C++. As a front-end engineer, I enjoy creating well-designed, intuitive interfaces with React and Redux and have worked at mastering other UI technologies including, jQuery, CSS3, HTML5 and other front-end frameworks. As a back-end engineer, I have focused on building clean, structured, scalable back-ends and have experience setting up servers, databases, and the overall infrastructure of an application from the ground up.
-        </p>
+        I'm skilled in multiple languages including Javascript, Python and C++. As a front-end engineer, I enjoy creating well-designed, intuitive interfaces with React and Redux and have worked at mastering other UI technologies including, jQuery, CSS3, HTML5 and other front-end frameworks. As a back-end engineer, I have focused on building clean, structured, scalable back-ends and have experience setting up servers, databases, deployment and the overall infrastructure of an application from the ground up.        </p>
          
         <div  className="strengths">
         <Row>
