@@ -15,7 +15,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
 
-      <a href="https://www.dropbox.com/s/6szsfeb4bs4oemi/VanessaTaylor_SoftwareEngineer_Resume.pdf?dl=0" >
+      <a href="https://www.dropbox.com/s/g3a3oh0q0fqqi32/VanessaTaylor_SoftwareEngineer_Resume.pdf?dl=0" >
         <img className="resume-icon" src={resumeIcon} alt="Resume" />
       </a>
 
