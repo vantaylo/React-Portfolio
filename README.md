@@ -2,7 +2,7 @@
 
 Now that I have worked with React and have multiple projects to share, I'm updating my portfolio and other materials using React.
 
-[Deployed Link!](https://vt-react-portfolio.herokuapp.com/)
+[Deployed Link!](https://react-portfolio-penr.vercel.app/)
 
 ## Updates Made
 
