@@ -15,18 +15,10 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
 
-      <a href="https://www.dropbox.com/s/6szsfeb4bs4oemi/VanessaTaylor_SoftwareEngineer_Resume.pdf?dl=0" >
-        <img className="resume-icon" src={resumeIcon} alt="Resume" />
-      </a>
-
       <a href="https://www.linkedin.com/in/vanessalyn-taylor/"className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-
-      {/* <a href="https://twitter.com/VanessaL_Taylor" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
-      </a> */}
-
+      
     </div>
   );
 }
